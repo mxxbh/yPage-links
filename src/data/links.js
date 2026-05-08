@@ -1,48 +1,108 @@
 export default {
-  "categories": [
+  categories: [
     {
-      "title": "日常生活",
-      "items": [
-        {"name": "抖音", "url": "https://www.douyin.com"},
-        {"name": "哔哩哔哩", "url": "https://www.bilibili.com"},
-        {"name": "爱奇艺", "url": "https://www.iqiyi.com"},
-        {"name": "腾讯视频", "url": "https://v.qq.com"},
-        {"name": "优酷", "url": "https://www.youku.com"},
-        {"name": "微信", "url": "https://wx.qq.com"},
-        {"name": "QQ", "url": "https://im.qq.com"},
-        {"name": "淘宝", "url": "https://www.taobao.com"},
-        {"name": "京东", "url": "https://www.jd.com"},
-        {"name": "拼多多", "url": "https://www.pinduoduo.com"}
-      ]
+      title: "常用网站",
+      items: [
+        { name: "密西西比何", url: "https://mxxbh.github.io/" },
+        { name: "Learning Note", url: "https://mxxbh.github.io/learning-note/" },
+        { name: "豆包", url: "https://www.doubao.com/chat/?channel" },
+        { name: "DeepSeek", url: "https://chat.deepseek.com/" },
+        { name: "千问", url: "https://tongyi.aliyun.com/qianwen/" },
+        { name: "微信读书", url: "https://weread.qq.com/" },
+        { name: "抖音", url: "https://www.douyin.com/" },
+        { name: "哔哩哔哩", url: "https://www.bilibili.com/" },
+        { name: "知乎", url: "https://www.zhihu.com/" },
+        { name: "豆瓣电影", url: "https://movie.douban.com/" },
+        { name: "有道翻译", url: "https://fanyi.youdao.com/#/TextTranslate" },
+        { name: "高德地图", url: "https://ditu.amap.com/" },
+        { name: "百度网盘", url: "https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all" },
+        { name: "QQ邮箱", url: "https://wx.mail.qq.com/" },
+        { name: "wikiHow", url: "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5" },
+        { name: "doyoudo", url: "https://www.doyoudo.com/" },
+        { name: "BOSS直聘", url: "https://www.zhipin.com/wuhan/?seoRefer=index" },
+        { name: "LeetCode", url: "https://leetcode.cn/" },
+        { name: "牛客网", url: "https://www.nowcoder.com/exam/company" },
+      ],
     },
     {
-      "title": "政府机构",
-      "items": [
-        {"name": "中国国务院官网", "url": "https://www.gov.cn"},
-        {"name": "江西省官网", "url": "https://www.jiangxi.gov.cn"},
-        {"name": "国家政务服务网", "url": "https://gjzwfw.gov.cn"},
-        {"name": "中国人民银行", "url": "http://www.pbc.gov.cn"},
-        {"name": "教育部", "url": "http://www.moe.gov.cn"},
-        {"name": "公安部", "url": "https://www.mps.gov.cn"}
-      ]
+      title: "前端开发",
+      items: [
+        { name: "MDN Web Docs", url: "https://developer.mozilla.org/zh-CN/" },
+        { name: "GitHub", url: "https://github.com/" },
+        { name: "Git", url: "https://git-scm.com/" },
+        { name: "Gitee", url: "https://gitee.com/" },
+        { name: "nvm", url: "https://github.com/nvm-sh/nvm" },
+        { name: "nvs", url: "https://github.com/jasongin/nvs?tab=readme-ov-file" },
+        { name: "Node", url: "https://nodejs.org/zh-cn" },
+        { name: "Vue", url: "https://cn.vuejs.org/guide/introduction" },
+        { name: "Pinia", url: "https://pinia.vuejs.org/zh/" },
+        { name: "Vite", url: "https://cn.vite.dev/guide/" },
+        { name: "VitePress", url: "https://vitepress.dev/zh/" },
+        { name: "Ant Design Vue", url: "https://www.antdv.com/components/overview-cn/" },
+        { name: "Element Plus", url: "https://element-plus.org/zh-CN/component/overview" },
+        { name: "React", url: "https://zh-hans.react.dev/" },
+        { name: "Webpack", url: "https://webpack.docschina.org/" },
+        { name: "Markdown", url: "https://www.markdownguide.org/" },
+        { name: "Can I Use", url: "https://caniuse.com/" },
+        { name: "HTML Validator", url: "https://validator.w3.org/#validate_by_input" },
+        { name: "浏览器内核检测工具", url: "https://ie.icoa.cn/" },
+        { name: "Cubic Bezier", url: "https://cubic-bezier.com/" },
+        { name: "菜鸟工具-在线画图", url: "https://www.jyshare.com/more/shapefly-diagram/" },
+        { name: "iconfont", url: "https://www.iconfont.cn/" },
+        { name: "大图测试文件", url: "https://www.eso.org/public/germany/images/eso1242a/" },
+      ],
     },
     {
-      "title": "搜索工具",
-      "items": [
-        {"name": "百度", "url": "https://www.baidu.com"},
-        {"name": "谷歌", "url": "https://www.google.com"},
-        {"name": "必应", "url": "https://www.bing.com"},
-        {"name": "搜狗", "url": "https://www.sogou.com"}
-      ]
+      title: "政府",
+      items: [
+        { name: "国家人力资源和社会保障部", url: "http://www.mohrss.gov.cn/" },
+        { name: "国家社会保险公共服务平台", url: "https://si.12333.gov.cn/osptb/index.html#/index" },
+        { name: "中国高等教育学生信息网", url: "https://www.chsi.com.cn/" },
+        { name: "国家公务员局", url: "http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/home/gkhome.html" },
+        { name: "江西人力资源和社会保障厅", url: "https://rst.jiangxi.gov.cn/" },
+        { name: "江西人事考试网", url: "http://www.jxpta.com/" },
+        { name: "江西人事考试综合服务平台", url: "https://pta.jxhrss.gov.cn/#/home" },
+        { name: "江西人才服务网", url: "https://www.jxrcfw.com/" },
+      ],
     },
     {
-      "title": "技术资源",
-      "items": [
-        {"name": "GitHub", "url": "https://github.com"},
-        {"name": "Stack Overflow", "url": "https://stackoverflow.com"},
-        {"name": "CSDN", "url": "https://www.csdn.net"},
-        {"name": "稀土掘金", "url": "https://juejin.cn"},
-      ]
-    }
-  ]
-}
+      title: "办公工具",
+      items: [
+        { name: "PDF24", url: "https://www.pdf24.org/zh/" },
+        { name: "秘塔写作猫", url: "https://xiezuocat.com/#/" },
+        { name: "深言达意", url: "https://www.shenyandayi.com/" },
+        { name: "汉语反向词典", url: "https://wantwords.net/" },
+        { name: "AI 工具集", url: "https://ai-bot.cn/" },
+      ],
+    },
+    {
+      title: "做视频",
+      items: [
+        { name: "ComfyUI", url: "https://docs.comfy.org/" },
+        { name: "HF-Mirror", url: "https://hf-mirror.com/" },
+        { name: "魔搭社区", url: "https://www.modelscope.cn/home" },
+        { name: "CG资源网", url: "https://www.cgown.com/" },
+      ],
+    },
+    {
+      title: "做游戏",
+      items: [{ name: "MatterJS", url: "https://www.brm.io/matter-js/" }],
+    },
+    {
+      title: "其他猎奇网站",
+      items: [
+        { name: "桌游合集", url: "https://game.hullqin.cn/" },
+        { name: "纪妖", url: "http://www.cbaigui.com/" },
+        { name: "全历史", url: "https://www.allhistory.com/" },
+        { name: "HTML5 Games", url: "https://html5games.com/" },
+        { name: "WebGL Water", url: "https://madebyevan.com/webgl-water/" },
+        { name: "AlteredQualia", url: "https://alteredqualia.com/" },
+        { name: "Kick Ass", url: "https://kickassapp.com/" },
+        { name: "The Useless Web", url: "https://theuselessweb.com/" },
+        { name: "Virtual Travels", url: "https://www.airpano.com/" },
+        { name: "Skyline Webcams", url: "https://www.skylinewebcams.com/" },
+        { name: "CSS Diner", url: "https://flukeout.github.io/" },
+      ],
+    },
+  ],
+};
