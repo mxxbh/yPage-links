@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 // @ts-ignore
-import linksData from '../data/links'
+import linksData from "../data/links";
 </script>
 
 <style scoped>
@@ -59,6 +59,8 @@ import linksData from '../data/links'
   text-align: center;
   transition: background-color 0.2s;
   font-size: 0.9rem;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .link-item:hover {
