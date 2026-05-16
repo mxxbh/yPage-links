@@ -64,6 +64,7 @@ export default {
         { name: "江西人力资源和\u200B社会保障厅", url: "https://rst.jiangxi.gov.cn/" },
         { name: "江西人事考试网", url: "http://www.jxpta.com/" },
         { name: "江西人事考试\u200B综合服务平台", url: "https://pta.jxhrss.gov.cn/#/home" },
+        { name: "江西人才\u200B测评中心", url: "https://jxrcrsksta.com/" },
         { name: "江西人才服务网", url: "https://www.jxrcfw.com/" },
       ],
     },
