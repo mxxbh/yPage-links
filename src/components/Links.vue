@@ -60,6 +60,7 @@ import linksData from "../data/links";
   transition: background-color 0.2s;
   font-size: 0.9rem;
   word-break: keep-all;
+  line-height: 1.3;
   overflow-wrap: break-word;
 }
 
