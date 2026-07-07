@@ -18,11 +18,7 @@ export default {
         { name: "高德地图", url: "https://ditu.amap.com/" },
         { name: "百度网盘", url: "https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all" },
         { name: "QQ邮箱", url: "https://wx.mail.qq.com/" },
-        { name: "wikiHow", url: "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5" },
-        { name: "doyoudo", url: "https://www.doyoudo.com/" },
         { name: "BOSS直聘", url: "https://www.zhipin.com/wuhan/?seoRefer=index" },
-        { name: "LeetCode", url: "https://leetcode.cn/" },
-        { name: "牛客网", url: "https://www.nowcoder.com/exam/company" },
       ],
     },
     {
@@ -69,6 +65,16 @@ export default {
       ],
     },
     {
+      title: "在线学习",
+      items: [
+        { name: "国家职业教育\u200B智慧教育平台", url: "https://vocational.smartedu.cn/NationalHome" },
+        { name: "LeetCode", url: "https://leetcode.cn/" },
+        { name: "牛客网", url: "https://www.nowcoder.com/exam/company" },
+        { name: "wikiHow", url: "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5" },
+        { name: "doyoudo", url: "https://www.doyoudo.com/" },
+      ]
+    },
+    {
       title: "办公工具",
       items: [
         { name: "PDF24", url: "https://www.pdf24.org/zh/" },
@@ -79,7 +85,7 @@ export default {
       ],
     },
     {
-      title: "做视频",
+      title: "制作视频",
       items: [
         { name: "ComfyUI", url: "https://docs.comfy.org/" },
         { name: "HF-Mirror", url: "https://hf-mirror.com/" },
@@ -88,7 +94,11 @@ export default {
       ],
     },
     {
-      title: "做游戏",
+      title: "制作模型",
+      items: [{ name: "Meshy", url: "https://www.meshy.ai/zh/discover" }],
+    },
+    {
+      title: "制作游戏",
       items: [{ name: "MatterJS", url: "https://www.brm.io/matter-js/" }],
     },
     {
