@@ -19,6 +19,7 @@ export default {
         { name: "百度网盘", url: "https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all" },
         { name: "QQ邮箱", url: "https://wx.mail.qq.com/" },
         { name: "BOSS直聘", url: "https://www.zhipin.com/wuhan/?seoRefer=index" },
+        { name: "粉笔", url: "https://www.fenbi.com/spa/tiku/guide/catalog/xingce?prefix=xingce" },
       ],
     },
     {
