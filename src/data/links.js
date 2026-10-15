@@ -20,6 +20,7 @@ export default {
         { name: "QQ邮箱", url: "https://wx.mail.qq.com/" },
         { name: "BOSS直聘", url: "https://www.zhipin.com/wuhan/?seoRefer=index" },
         { name: "粉笔", url: "https://www.fenbi.com/spa/tiku/guide/catalog/xingce?prefix=xingce" },
+        { name: "人民日报", url: "https://www.peopleapp.com/opinion?param1=2003&param2=2" },
       ],
     },
     {
