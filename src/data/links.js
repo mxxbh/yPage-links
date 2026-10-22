@@ -43,7 +43,7 @@ export default {
         { name: "Vite", url: "https://cn.vite.dev/guide/" },
         { name: "ECharts", url: "https://echarts.apache.org/handbook/zh/get-started/" },
         { name: "ThreeJS", url: "https://threejs.org/docs/" },
-        { name: "AntV x6", url: "https://x6.antv.antgroup.com/tutorial/getting-started" },
+        { name: "AntV x6", url: "https://x6.antv.antgroup.com/zh/tutorial/getting-started/" },
         { name: "VitePress", url: "https://vitepress.dev/zh/" },
         { name: "Markdown", url: "https://www.markdownguide.org/" },
         { name: "Can I Use", url: "https://caniuse.com/" },
